@@ -1,0 +1,35 @@
+body {
+    background-color: #161616;
+    margin: auto;
+}
+
+
+
+
+#MOROS{
+    display: block;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    width: 27%;
+}
+
+
+#discord{
+    width: 7%;
+    margin-bottom: 2%;
+}
+
+
+#arrow{
+    width: 3%;
+}
+
+
+#team{
+    width: 84%
+}
+
+
+

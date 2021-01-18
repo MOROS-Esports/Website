@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="de-de">
+
+    <head>
+        <meta charset="utf-8"/>
+        <title>MOROS</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="keywords" content="MOROS, Clan, Rainbow, Six, Siege, Esports, Competitive, Scrims">
+        <meta name="description" content="Clan Website von MOROS Esports">
+        <meta name="author" content="Timon">
+        <meta name="robots" content="index, follow">
+        <meta name="revisit-after" content="4 month">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    </head>
+
+
+
+    <header id="main">
+        <img id="MOROS" src="MOROS.png">
+    </header>
+    <body>
+        <center>
+            <a href="https://discord.gg/vszvu74"><img id="discord" src="discord.png"></a><br>
+        </center>
+        <nav>
+            <script type="application/javascript">
+                $(document).on('click', 'a[href^="#"]', function(e) {
+                    var id = $(this).attr('href');
+    
+                    var $id = $(id);
+                    if ($id.length === 0) {
+                    return;
+                    }
+                    e.preventDefault();
+    
+        
+                    var pos = $id.offset().top;
+    
+        
+                    $('body, html').animate({scrollTop: pos});
+                });
+            </script>
+            <center>
+                <a class="navbtn" href="#team"><img id="arrow" src="arrow.png"></a>
+            </center>
+            
+        </nav>
+
+
+
+
+        <section>
+            <center>
+                <img id="team" src="team.png">
+            </center>
+        </section>
+
+
+    </body>
+
+
+
+
+
+</html>
