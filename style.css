@@ -30,6 +30,7 @@ body {
 
 #team{
    
+    max-width: 85vw;
     width: 175vh;
     
 }
