@@ -13,6 +13,7 @@ body {
     margin-right: auto;
     margin-top: 7vh;
     width: 60vh;
+    max-width: 95vw;
 
 }
 
@@ -30,8 +31,9 @@ body {
 
 #team{
    
-    max-width: 85vw;
+    max-width: 95vw;
     width: 175vh;
+    min-width: 70vw;
     
 }
 
